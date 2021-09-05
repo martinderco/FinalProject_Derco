@@ -3,7 +3,9 @@ Final Project
 In this project I have decided to analyse four major Czech betting offices in terms of the rates they offer to their clients.
 For this analysis I will scrape live data from the urls of these betting office of two sports - voleyball and tenis - as these two sports usually offer bets on only win or loss scenarios (**home** and **away** terms are being used in betting terminology) which simplyfies the analysis and calculations. Other observations (such as betting on total winner of a tournament etc.) will be dropped out of the dataset used for analysis.
 Using a simple formula
-# exchangeProfit = 1/homerate + 1/awayrate
+
+**exchangeProfit = 1/homerate + 1/awayrate**
+
 we can evaluate which of these four betting offices provides its clients with the "best and worst" rates in terms of securing its own profits. 
 Statistically, the total sum of probabilities of all possible outcomes sums up to 1.
 In the world of betting offices this formula will rather equal > 1 as their aim is to secure their profits with providing "unfair" rates, ie. summing up the reciprocal values of the "home" and "away" rates will be > 1, the higher the number, the more unfair the rates are.
