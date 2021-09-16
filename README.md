@@ -10,7 +10,7 @@ we can evaluate which of these four betting offices provides its clients with th
 Statistically, the total sum of probabilities of all possible outcomes sums up to 1.
 In the world of betting offices this formula will rather equal > 1 as their aim is to secure their profits with providing "unfair" rates, ie. summing up the reciprocal values of the "home" and "away" rates will be > 1, the higher the number, the more unfair the rates are.
 
-First part of the code **Scraper** is being ran through command line 'python Scraper.py *argument*' with valid arguments *tenis*, *voleyball* or *all*
+First part of the code, **Scraper**, is being ran through command line 'python Scraper.py *argument*' with valid arguments *tenis*, *voleyball* or *all*
 
 # Processor
 In this part we will match and clean our data scraped from 4 different webpages.
